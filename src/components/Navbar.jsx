@@ -2,9 +2,13 @@
 
 const Navbar = () => {
     return (
-        <div>
-            
-        </div>
+        <nav>
+            {/* LOGO */}
+            <div></div>
+
+            {/* LINKS */}
+            <ul></ul>
+        </nav>
     );
 };
 
