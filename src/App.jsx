@@ -1,10 +1,12 @@
-import Home from "./pages/Home"
+import { Outlet } from "react-router-dom"
+import Navbar from "./components/Navbar"
+
 
 function App() {
   return (
-    <>
-      <h1>hello world</h1>
-      <Home/>
+       <>
+      <Navbar />
+      <Outlet />
     </>
   )
 }
