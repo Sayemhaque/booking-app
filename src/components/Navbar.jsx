@@ -5,11 +5,11 @@ const Navbar = () => {
     const location = useLocation();
     console.log(location.pathname)
     return (
-      <div className={`${location.pathname == "/" ? "text-white" : "text-black bg-gray-300 shadow-lg"} `}>
-          <nav className="flex flex-col md:flex-row md:items-center md:justify-between md:max-w-[1150px] mx-auto py-5 px-5 lg:px-0">
+      <div className={`${location.pathname == "/" ? "text-white" : "text-black bg-gray-100 shadow-lg"} `}>
+          <nav className="flex flex-col md:flex-row md:items-center md:justify-between md:max-w-[1150px] mx-auto py-3 px-5 lg:px-0">
             {/* LOGO */}
             <div>
-                <h1 className={`${location.pathname == "/" && "text-yellow-300"}font-serif text-4xl font-bold `}>BookIT</h1>
+                <h1 className={`${location.pathname == "/" && "text-yellow-400"}font-serif text-4xl font-bold bg-black bg-opacity-40 lg:bg-transparent p-2 `}>BookIT</h1>
             </div>
 
             {/* LINKS */}
